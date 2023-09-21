@@ -14,7 +14,7 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 - Pertama mendownload capture file dari soal
 - Kemudian melakukan filter dengan `http`
 (gambar)
-- Kemudian pilih salah satu paket dengan klik kanan, pilih **Follow**
+- Kemudian pilih salah satu paket dengan protocol **HTTP** dengan klik kanan, pilih **Follow**
 - Klik **HTTP Stream**, kemudian akan muncul windown seperti dibawah ini
   (gambar)
 - Kemudian ditemukan web servernya adalah **gunicorn**
@@ -42,5 +42,5 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
 ### Penyelesaian
 - Pertama mendownload capture file dari soal
 - Kemudian melakukan filter dengan `telnet` (gambar)
-- Kemudian untuk mengecek kredensial yang dimasukkan, dapat dilihat ke bagian Detail Paket
+- Kemudian untuk mengecek kredensial yang dimasukkan, dapat dilihat ke bagian Detail Paket (tab bagian bawah)
 - Kredensial berada di bagian Telnet dan ditemukan kredensial yang benar seperti gambar dibawah ini (gambar)
