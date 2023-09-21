@@ -10,7 +10,7 @@ Anggota Kelompok B09:
 
 ## Soal No.2
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
-# Penyelesaian
+### Penyelesaian
 - Pertama mendownload capture file dari soal
 - Kemudian melakukan filter dengan `http`
 (gambar)
@@ -21,7 +21,7 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
 ## Soal No.4
 Berapa nilai checksum yang didapatkan dari header pada paket nomor 130?
-# Penyelesaian
+### Penyelesaian
 - Pertama mendownload capture file dari soal
 - Kemudian pilih paket yang memiliki **No.130**
 (gambar)
@@ -29,15 +29,15 @@ Berapa nilai checksum yang didapatkan dari header pada paket nomor 130?
 (gambar)
 - Checksum berada di User Datagram Protocol
 
-  ## Soal No. 8
-  Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!
-  # Penyelesaian
-  - Pertama mendownload capture file dari soal
-  - ...
+## Soal No. 8
+Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!
+### Penyelesaian
+- Pertama mendownload capture file dari soal
+- ...
  
-  ## Soal No. 10
-  Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
-  # Penyelesaian
-  - Pertama mendownload capture file dari soal
-  - Kemudian melakukan filter dengan `telnet` (gambar)
-  - ...
+## Soal No. 10
+Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
+### Penyelesaian
+- Pertama mendownload capture file dari soal
+- Kemudian melakukan filter dengan `telnet` (gambar)
+- ...
