@@ -33,11 +33,14 @@ Berapa nilai checksum yang didapatkan dari header pada paket nomor 130?
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!
 ### Penyelesaian
 - Pertama mendownload capture file dari soal
-- ...
+- Kemudian melakukan filter dengan `tcp.dstport==80||udp.dstport==80`
+  `tcp.dstport==80` untuk menangkap paket-paket TCP yang ditujukan ke port 80
+  `udp.dstport==80` untuk menangkap paket-paket UDP yang ditujungan ke port 80 (gambar)
  
 ## Soal No. 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
 ### Penyelesaian
 - Pertama mendownload capture file dari soal
 - Kemudian melakukan filter dengan `telnet` (gambar)
-- ...
+- Kemudian untuk mengecek kredensial yang dimasukkan, dapat dilihat ke bagian Detail Paket
+- Kredensial berada di bagian Telnet dan ditemukan kredensial yang benar seperti gambar dibawah ini (gambar)
