@@ -33,10 +33,11 @@ Berapa nilai checksum yang didapatkan dari header pada paket nomor 130?
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT berrsama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan **"server SOURCE ADDRESS 7812 is invalid"**. ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
 ### Penyelesaian
 - Pertama mendownload capture file dari soal
-- Kemudian pilih paket yang memiliki **No.7812** dan ditemukan source addressnya dalah **104.18.14.101** (gambar)
+- Kemudian pilih paket yang memiliki **No.7812** dan ditemukan source addressnya dalah **104.18.14.101**
+![no 6](https://github.com/melanierefman/Jarkom-Modul-1-B09-2023/assets/87106838/6fdcaf82-dd18-4ca7-b840-6ba361107462)
 - Kemudian solusi dari kode error tersebut didapat dari source addressnya dimana terdiri dari 6 Huruf dengan menggunakan hurus A(1)-R(18)
 - Untuk detail penyelesaian solusinya dapat dilihat dari gambar dibawah ini
-(gambar)
+![no 6(1)](https://github.com/melanierefman/Jarkom-Modul-1-B09-2023/assets/87106838/67472bd0-1cd5-4c25-9930-9a85b9293463)
 - Jadi solusi dari kode error tersebut adalah **JDRNJA**
 
 ## Soal No. 8
