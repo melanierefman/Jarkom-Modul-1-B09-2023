@@ -27,7 +27,7 @@ Berapa nilai checksum yang didapatkan dari header pada paket nomor 130?
   ![no 4](https://github.com/melanierefman/Jarkom-Modul-1-B09-2023/assets/87106838/85f6ab06-c7dd-47b2-9bde-26d53506b7a8)
 - Kemudian cari data checksum di detail paket (tab bagian bawah)
   ![no 4(1)](https://github.com/melanierefman/Jarkom-Modul-1-B09-2023/assets/87106838/ff11dfdd-9397-4320-a52c-a342ad22aa9c)
-- Checksum berada di User Datagram Protocol
+- Checksum berada di User Datagram Protocol dan memiliki nilai:**0x18e5**
 
 ## Soal No.6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT berrsama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan **"server SOURCE ADDRESS 7812 is invalid"**. ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
@@ -45,7 +45,9 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 ### Penyelesaian
 - Pertama mendownload capture file dari soal
 - Kemudian melakukan filter dengan `tcp.dstport==80||udp.dstport==80`
+  
   `tcp.dstport==80` untuk menangkap paket-paket TCP yang ditujukan ke port 80
+  
   `udp.dstport==80` untuk menangkap paket-paket UDP yang ditujungan ke port 80
   ![no 8](https://github.com/melanierefman/Jarkom-Modul-1-B09-2023/assets/87106838/5f8ecdb1-7fc3-4c84-9de0-d00740d2bd82)
  
@@ -58,3 +60,6 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
 - Kemudian untuk mengecek kredensial yang dimasukkan, dapat dilihat ke bagian Detail Paket (tab bagian bawah)
 - Kredensial berada di bagian Telnet dan ditemukan kredensial yang benar seperti gambar dibawah ini
   ![no 10(1)](https://github.com/melanierefman/Jarkom-Modul-1-B09-2023/assets/87106838/f88ac2b7-8c02-4192-a019-2b7eea890e91)
+
+## Kendala Pengerjaan Praktikum
+- Saat mengakses portal praktikumnya sangat lemot
