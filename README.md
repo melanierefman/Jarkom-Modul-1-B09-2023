@@ -29,6 +29,16 @@ Berapa nilai checksum yang didapatkan dari header pada paket nomor 130?
   ![no 4(1)](https://github.com/melanierefman/Jarkom-Modul-1-B09-2023/assets/87106838/ff11dfdd-9397-4320-a52c-a342ad22aa9c)
 - Checksum berada di User Datagram Protocol
 
+## Soal No.6
+Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT berrsama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan **"server SOURCE ADDRESS 7812 is invalid"**. ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+### Penyelesaian
+- Pertama mendownload capture file dari soal
+- Kemudian pilih paket yang memiliki **No.7812** dan ditemukan source addressnya dalah **104.18.14.101** (gambar)
+- Kemudian solusi dari kode error tersebut didapat dari source addressnya dimana terdiri dari 6 Huruf dengan menggunakan hurus A(1)-R(18)
+- Untuk detail penyelesaian solusinya dapat dilihat dari gambar dibawah ini
+(gambar)
+- Jadi solusi dari kode error tersebut adalah **JDRNJA**
+
 ## Soal No. 8
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!
 ### Penyelesaian
